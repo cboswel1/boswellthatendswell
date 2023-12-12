@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "Inter_Medium";
+  src: url("../fonts/Inter-Medium.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Inter_Bold";
+  src: url("../fonts/Inter-Bold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Inter_Light";
+  src: url("../fonts/Inter-Light.ttf") format("ttf");
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background: #0f0f0f;
+  margin: auto;
+  font-family: "Inter_Medium", sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 850px;
+  width: 100%;
+  margin: auto 0;
+  height: 100vh;
+  gap: 40px;
+}
+
+.header-title {
+  text-transform: uppercase;
+  color: #ffffff;
+  line-height: 120%;
+  letter-spacing: 0.3em;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+.subheader-copy {
+  text-transform: uppercase;
+  color: #999999;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.bio-copy {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: lighter;
+  line-height: 150%;
+}
+
+.emphasis {
+  font-style: oblique 50deg;
+}
+
+@media (max-width: 768px) {
+  main {
+    padding: 0 20px;
+  }
+  .header-title {
+    font-size: 24px;
+  }
+  .subheader-copy {
+    font-size: 12px;
+  }
+  .bio-copy {
+    font-size: 14px;
+  }
+}

@@ -30,6 +30,7 @@ main {
   margin: auto 0;
   height: 100vh;
   gap: 40px;
+  padding: 0 20px;
 }
 
 .header-title {
@@ -60,9 +61,6 @@ main {
 }
 
 @media (max-width: 768px) {
-  main {
-    padding: 0 20px;
-  }
   .header-title {
     font-size: 24px;
   }
